@@ -1,6 +1,6 @@
 # MaliciousPromptGenerator
 Generator for malicious prompts for various Q&A and images for image-to-text LLMs, wrapping around LangChain, FlowiseAI, OpenAI and Replicate.\
-*Usage:* \
+*Usage:*
 ```
 npm install
 node attackFlow
