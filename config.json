@@ -6,7 +6,6 @@
     },
     "API": {
         "openAI": "",
-        "huggingFace": "",
         "replicate": ""
     },
     "allowedModels": {
