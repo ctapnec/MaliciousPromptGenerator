@@ -1,0 +1,26 @@
+{
+    "flowiseaiURL": "http://localhost:3000/api/v1/prediction",
+    "flowIDs": {
+        "imgGeneratorID": "4081bd85-61ea-4dc4-a6d2-bf0efd8cfbff",
+        "openAIWrapperID": "caae4bd0-d06e-46bb-bb64-a0a4389812c7"
+    },
+    "API": {
+        "openAI": "",
+        "huggingFace": "",
+        "replicate": ""
+    },
+    "allowedModels": {
+        "openAI": [
+            { "name": "gpt-4o", "modality": "all", "multilang": true },
+            { "name": "gpt-4-turbo", "modality": "text-text", "multilang": true },
+            { "name": "gpt-3.5-turbo", "modality": "text-text", "multilang": true }
+        ],
+        "replicate": [
+            { "name": "yorickvp/llava-v1.6-mistral-7b:19be067b589d0c46689ffa7cc3ff321447a441986a7694c01225973c2eafc874", "modality": "image-text", "multilang": false },
+            { "name": "yorickvp/llava-v1.6-vicuna-13b:0603dec596080fa084e26f0ae6d605fc5788ed2b1a0358cd25010619487eae63", "modality": "image-text", "multilang": true },
+            { "name": "meta/meta-llama-3-8b-instruct", "modality": "text-text", "multilang": false },
+            { "name": "meta/meta-llama-3-70b-instruct", "modality": "text-text", "multilang": false }
+        ]
+    },
+    "defaultOpenAIModel": "gpt-4o"
+}
